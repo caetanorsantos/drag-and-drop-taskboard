@@ -4,7 +4,7 @@ Um quadro de tarefas interativo com funcionalidade de arrastar e soltar, constru
 
 ## 📸 Preview
 
-![Screenshot do Projeto](https://github.com/user-attachments/assets/your-image-id-here)
+![Screenshot do Projeto](./docs/screenshot.png)
 
 ## ✨ Funcionalidades
 
@@ -13,7 +13,6 @@ Um quadro de tarefas interativo com funcionalidade de arrastar e soltar, constru
 - ✅ **Excluir tarefas** - Duplo clique em uma tarefa para removê-la (com confirmação)
 - ✅ **Feedback visual** - Destaque das colunas ao arrastar tarefas sobre elas
 - ✅ **Atalhos de teclado** - Pressione Enter para finalizar a criação de uma tarefa
-- ✅ **Interface responsiva** - Layout adaptável para diferentes tamanhos de tela
 - ✅ **Design limpo** - Estilização moderna com Tailwind CSS
 
 ## 🚀 Tecnologias
@@ -137,6 +136,7 @@ module.exports = {
 ## 📝 Roadmap
 
 - [ ] Funcionalidade de editar tarefas existentes
+- [ ] Interface responsiva
 - [ ] Persistência de dados (LocalStorage ou IndexedDB)
 - [ ] Botões visuais para criar/excluir tarefas (além do duplo clique)
 - [ ] Temas claro/escuro
