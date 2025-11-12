@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>D&D TaskBoard</title>
+		<link rel="stylesheet" href="output.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<main class="p-8 select-none">
+			<header>
+				<span class="text-sm text-gray-600 font-bold tracking-wide">Projetos / Caetano Santos</span>
+
+				<h1 class="text-3xl font-semibold mt-2">Quadro de Tarefas com Drag&Drop</h1>
+			</header>
+
+			<section class="columns flex-1 rounded-lg flex gap-4 p-4 mt-10">
+				<section class="column flex flex-col min-h-full w-full bg-gray-200 rounded-lg">
+					<h2 class="column--title font-bold text-sm m-4 text-gray-700">TO DO</h2>
+
+					<section class="column--cards flex-1 p-2 rounded-lg"></section>
+				</section>
+
+				<section class="column flex flex-col min-h-full w-full bg-gray-200 rounded-lg">
+					<h2 class="column--title font-bold text-sm m-4 text-gray-700">IN PROGRESS</h2>
+
+					<section class="column--cards flex-1 p-2 rounded-lg"></section>
+				</section>
+
+				<section class="column flex flex-col min-h-full w-full bg-gray-200 rounded-lg">
+					<h2 class="column--title font-bold text-sm m-4 text-gray-700">TO REVIEW</h2>
+
+					<section class="column--cards flex-1 p-2 rounded-lg"></section>
+				</section>
+
+				<section class="column flex flex-col min-h-full w-full bg-gray-200 rounded-lg">
+					<h2 class="column--title font-bold text-sm m-4 text-gray-700">DONE</h2>
+
+					<section class="column--cards flex-1 p-2 rounded-lg"></section>
+				</section>
+			</section>
+		</main>
+	</body>
+</html>
